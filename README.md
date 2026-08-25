@@ -1,7 +1,4 @@
-# workday-query-agent-
-
 #github link https://github.com/Raksha-A-prodapt/workday-query-agent-
-
 # Workday HR Analytics AI Assistant
 
 An enterprise-grade, schema-grounded natural-language reporting and analytics agent for Workday-style HR databases. Built with **FastAPI**, **LangGraph**, **ChromaDB**, **SQLite**, **LangSmith**, and **React + Vite**.

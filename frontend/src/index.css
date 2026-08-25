@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #fafbfc;
+  --color-card-bg: #ffffff;
+  --color-card-border: #e5e7eb;
+  --color-card-border-hover: #d1d5db;
+  
+  --color-brand-blue: #1e40af;
+  --color-brand-blue-hover: #1d4ed8;
+  --color-brand-blue-light: #eff6ff;
+  --color-brand-blue-border: #bfdbfe;
+  
+  --color-text-main: #111827;
+  --color-text-muted: #4b5563;
+  --color-text-subtle: #6b7280;
+
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Roboto Mono', ui-monospace, monospace;
+}
+
+body {
+  background-color: #fafbfc;
+  color: #111827;
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Enterprise Workday / SAP Style White Cards */
+.enterprise-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04), 0 1px 2px -1px rgba(0, 0, 0, 0.02);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.enterprise-card:hover {
+  border-color: #d1d5db;
+}
+
+/* Subtle Table & Clean Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f3f4f6;
+}
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
